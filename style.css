@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	background-image: url(bg1.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.nav-item {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 80px;
+	font-size: 38px;
+}
+
+.nav-item:last-child {
+	margin-right: 0;
+}
+
+.nav-item:hover {
+	color: red;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;	
+	padding-top: 34px;
+}
+
+.title {
+	color: white;
+	font-size: 80px;
+	width: 1114px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 116px;
+}
+
+.subtitle {
+	color: white;
+	font-size: 48px;
+	font-weight: 900;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 514px;
+	line-height: 44px;
+	margin-top: 50px;
+}
+
+.input {
+	width: 447px;
+	height: 64px;
+	font-size: 24px;
+	outline: none;
+	border: 4px solid gray;
+	border-radius: 20px;
+	padding-left: 15px;
+}
+
+.forma {
+	text-align: center;
+	background-color: ;
+	margin-top: 20px;
+}
+
+.button {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.btn {
+	text-decoration: none;
+	background-color: #5B89CE;
+	padding: 15px;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	border-radius: 25px;
+	border: 2px solid gray;
+}
+
+.btn:hover {
+	background-color: #3b0aeb;
+}
